@@ -10,6 +10,8 @@ import streamlit as st
 from dotenv import load_dotenv
 pd.options.display.float_format = '{:,.2f}'.format
 
+# Config
+st.set_page_config(page_title='Get Etherium Address Balance', page_icon=':pie_chart:', layout='wide')
 
 st.title('Portfolio Balance')
 
@@ -53,7 +55,7 @@ def get_wallet_balance(walletAddress):
 
 
 # Get the wallet address from the user
-wallet_input = st.text_input("**Please enter a wallet address**", '0xf8c3527cc04340b208c854e985240c02f7b7793f')
+wallet_input = st.text_input("**Please enter Ethereum wallet address**", '0xf8c3527cc04340b208c854e985240c02f7b7793f')
 
 # Fetch the balance of the wallet
 if wallet_input:
