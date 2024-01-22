@@ -14,8 +14,8 @@ pd.options.display.float_format = '{:,.2f}'.format
 st.title('Portfolio Balance')
 
 # Implementing Basic Authentication. THIS ONE IS RECOMENDED.
-#a key benefit of using Basic Auth is that your request can reliably  
-#take advantage of COVALENT caching mechanism for better query performance."""
+# a key benefit of using Basic Auth is that your request can reliably  
+# take advantage of COVALENT caching mechanism for better query performance."""
 
 # Always protect your API keys, ideally using environment variables
 
