@@ -11,7 +11,7 @@ from dotenv import load_dotenv
 pd.options.display.float_format = '{:,.2f}'.format
 
 # Config
-st.set_page_config(page_title='Get Etherium Address Balance', page_icon=':pie_chart:', layout='wide')
+st.set_page_config(page_title='Get Etherium Address Balance', page_icon=':bar_chart:',)
 
 st.title('Portfolio Balance')
 
