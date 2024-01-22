@@ -113,6 +113,7 @@ if wallet_input:
 
     # Display the total portfolio value in the middle of the donut
     ax.text(0, 0, f'${total_portfolio_value:,.2f}', ha='center', va='center', fontsize=12, color='black')
+    ax.text(0, 0.1, f'Total Value', ha='center', va='center', fontsize=12, color='black')
     plt.title('')
     plt.ylabel('')
     plt.show()
