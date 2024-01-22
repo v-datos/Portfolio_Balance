@@ -1,6 +1,5 @@
-matplotlib==3.8.2
-numpy @ file:///private/tmp/numpy-20240108-5714-j1nhtg/numpy-1.26.3
-pandas==2.2.0
-requests==2.31.0
-seaborn==0.13.1
-streamlit==1.30.0
+matplotlib
+numpy
+pandas
+seaborn
+streamlit
