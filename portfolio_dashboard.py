@@ -22,7 +22,7 @@ st.title('Portfolio Balance')
 # load api key
 load_dotenv()
 #api_key = os.getenv('COVALENT_API_KEY')
-api_key = st.secrets["covalent"]["api_key"]
+api_key = st.secrets["api_key"]
 # Define a function to fetch the balance of a given wallet from the Covalent API
 
 def get_wallet_balance(walletAddress):
