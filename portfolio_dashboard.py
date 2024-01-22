@@ -53,7 +53,7 @@ def get_wallet_balance(walletAddress):
 
 
 # Get the wallet address from the user
-wallet_input = st.text_input("**Please enter a wallet address**", '0xfc43f5f9dd45258b3aff31bdbe6561d97e8b71de')
+wallet_input = st.text_input("**Please enter a wallet address**", '0xf8c3527cc04340b208c854e985240c02f7b7793f')
 
 # Fetch the balance of the wallet
 if wallet_input:
