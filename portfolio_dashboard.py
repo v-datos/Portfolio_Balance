@@ -99,7 +99,7 @@ if wallet_input:
     explode = (0.05,) * len(df_grouped)
 
     # Create a figure and set different background
-    fig, ax = plt.subplots(figsize=(6, 6))
+    fig, ax = plt.subplots(figsize=(4, 4))
     ax.set_facecolor('none')  # Make the background transparent
     # Create a pie chart
     df_grouped['Value'].plot(kind='pie', y='Value',
