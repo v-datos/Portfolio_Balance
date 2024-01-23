@@ -127,6 +127,6 @@ if wallet_input:
     dataset['Value'] = dataset['Value'].apply(lambda x: '${:,.2f}'.format(x))
     dataset['Balance'] = dataset['Balance'].round(2)
     # Display the DataFrame
-    st.table(dataset)
+    st.dataframe(dataset)
 
    
